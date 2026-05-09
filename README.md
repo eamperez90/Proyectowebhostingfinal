@@ -1,4 +1,4 @@
-# 🌐 Hosting Da Vinci GT
+#  Hosting Proyecto final 
 
 Proyecto Final — **Redes de Datos 1**  
 Universidad Da Vinci de Guatemala
@@ -7,13 +7,13 @@ Servidor de hosting web completo sobre **Ubuntu 24.04 LTS en Microsoft Azure**, 
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 Sistema de hosting multi-usuario con 5 sitios web temáticos, administrados mediante un panel de control (cPanel) propio. El proyecto implementa los principales servicios de red vistos en el curso.
 
 ---
 
-## 🖥️ Servidor
+## Servidor
 
 | Campo | Valor |
 |---|---|
@@ -25,7 +25,7 @@ Sistema de hosting multi-usuario con 5 sitios web temáticos, administrados medi
 
 ---
 
-## 👥 Usuarios del Hosting
+## Usuarios del Hosting
 
 | Usuario | Sitio | Dominio |
 |---|---|---|
@@ -37,7 +37,7 @@ Sistema de hosting multi-usuario con 5 sitios web temáticos, administrados medi
 
 ---
 
-## 🌍 URLs de Acceso
+## URLs de Acceso
 
 | URL | Sitio | Usuario |
 |---|---|---|
@@ -50,7 +50,7 @@ Sistema de hosting multi-usuario con 5 sitios web temáticos, administrados medi
 
 ---
 
-## ⚙️ Servicios Configurados
+## Servicios Configurados
 
 | Servicio | Daemon | Puerto | Descripción |
 |---|---|---|---|
@@ -62,7 +62,7 @@ Sistema de hosting multi-usuario con 5 sitios web temáticos, administrados medi
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 hosting-davinci-gt/
@@ -89,7 +89,7 @@ hosting-davinci-gt/
 
 ---
 
-## 🚀 Instalación
+## Instalación
 
 ### Requisitos
 - Ubuntu 24.04 LTS
@@ -114,7 +114,7 @@ Instala las 5 páginas HTML temáticas, configura Apache con symlinks y desplieg
 
 ---
 
-## 🎛️ Funciones del cPanel
+## Funciones del cPanel
 
 - **Dashboard** — Estado del hosting y accesos rápidos
 - **Gestor de Archivos** — Subir, bajar, crear y eliminar archivos
@@ -125,7 +125,7 @@ Instala las 5 páginas HTML temáticas, configura Apache con symlinks y desplieg
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 Internet
@@ -150,7 +150,7 @@ Internet
 
 ---
 
-## 📝 Notas Técnicas
+## Notas Técnicas
 
 - Los symlinks se usan en lugar de `mod_alias` porque el módulo no funciona correctamente en esta configuración de VM
 - Todos los archivos de configuración se instalan desde base64 para evitar corrupción de caracteres especiales
@@ -159,10 +159,12 @@ Internet
 
 ---
 
-## 👨‍💻 Autor
+## Autor
+Eddy Alexander Amperez Carranza Carnet:202500054
+Karen Fernanda Calderón García Carnet: 202406077
+Gustavo Rafael Juarez Mendoza Carnet:202505481
+Karen Charmainne Rodas Equité Carnet: 202504327
+Cristofer Antonio Patricio Cuxun Carnet: 202500553
 
-**Eddy Alexander Amperez Carranza**  
-Carnet: eamperez  
-Universidad Da Vinci de Guatemala  
 Curso: Redes de Datos 1  
 Año: 2026
